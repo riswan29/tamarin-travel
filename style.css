@@ -551,6 +551,11 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+.garis{
+    background-color: #111;
+    width: auto;
+    height: 2px;
+}
 
 
 /* responsive media query start */
