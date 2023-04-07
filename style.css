@@ -22,6 +22,22 @@ html{
     background: #888;
 }
 
+.tbl{
+    background-color: green; /* Warna background hijau */
+    border: 2px solid gray; /* Border berwarna hijau */
+    border-radius: 0; /* Border persegi panjang */
+    color: white; /* Warna teks putih */
+    font-size: 16px; /* Ukuran teks */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Rata tengah teks */
+    text-decoration: none; /* Tidak ada dekorasi teks */
+    display: inline-block;
+}
+.tbl:hover {
+    background-color: darkgreen; /* Warna background hijau tua */
+    border-color: darkgreen;
+  }
+
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
